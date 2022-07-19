@@ -1,0 +1,18 @@
+.TabelaProdutos {
+  border-collapse: collapse;
+}
+
+.TabelaProdutos tr td, .TabelaProdutos tr th {
+  border: 1px solid aliceblue;
+  padding: 3px 15px;
+}
+
+.TabelaProdutos th {
+  font-size: large;
+  background-color: aqua;
+  color: #222;
+}
+
+.TabelaProdutos tr:nth-child(odd) {
+  background-color: #10131a;
+}

@@ -1,0 +1,41 @@
+:root {
+  --main-blue: #61dafb;
+  --main-bg: #20232a;
+}
+
+.Card {
+  background-color: var(--main-blue);
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  border: 1px solid var(--main-blue);
+
+  box-shadow: 4px 4px 10px black;
+
+  min-width: 300px;
+  min-height: 150px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Card .Title {
+  padding: 10px 10px;
+
+  color: var(--main-bg);
+  font-size: large;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+}
+
+.Card .Content {
+  background-color: var(--main-bg);
+  color: aliceblue;
+
+  padding: 5px 15px;
+
+  flex-grow: 1;
+}

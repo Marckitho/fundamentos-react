@@ -1,0 +1,24 @@
+.Contador input {
+  font-size: large;
+  border-radius: 2px;
+  width: 60px;
+  padding: 2px 6px;
+  margin-left: 5px;
+}
+
+.Contador button {
+  margin: 20px 0;
+  
+  border: none;
+  background-color: var(--main-blue);
+  font-weight: 700;
+
+  padding: 7px;
+  border-radius: 3px;
+
+  cursor: pointer;
+}
+
+.Contador button:first-child {
+  margin-right: 20px;
+}

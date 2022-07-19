@@ -1,0 +1,71 @@
+.Mega {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Mega .Mega-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 10px;
+
+  margin-bottom: 30px;
+}
+
+.Mega .Mega-input input {
+  box-sizing: border-box;
+  
+  border: none;
+  border-radius: 3px;
+  
+  font-size: larger;
+  width: 50%;
+  padding-inline: 7px;
+}
+
+.Mega .Mega-input button {
+  background-color: var(--main-blue);
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+
+  box-shadow: 0 3px #4296ad;
+  transition-duration: 30ms;
+}
+
+.Mega .Mega-input button:active {
+  box-shadow: 0 1px #4296ad;
+  transform: translateY(2px);
+}
+
+.Mega .Mega-results {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  max-width: 250px;
+  flex-wrap: wrap;
+
+  box-sizing: border-box;
+
+  padding-inline: 10px;
+  margin-bottom: 20px;
+}
+
+.Mega .Mega-result {
+  background-color: var(--main-blue);
+  color: black;
+  
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
